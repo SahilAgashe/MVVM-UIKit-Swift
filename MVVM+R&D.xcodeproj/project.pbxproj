@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		817F7C1C2B5B99AB009BCC97 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817F7C1B2B5B99AB009BCC97 /* Student.swift */; };
 		81DAE0462B5125E000D75B9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DAE0452B5125E000D75B9D /* AppDelegate.swift */; };
 		81DAE0482B5125E000D75B9D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DAE0472B5125E000D75B9D /* SceneDelegate.swift */; };
 		81DAE04A2B5125E000D75B9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DAE0492B5125E000D75B9D /* ViewController.swift */; };
 		81DAE04D2B5125E000D75B9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81DAE04B2B5125E000D75B9D /* Main.storyboard */; };
 		81DAE04F2B5125E100D75B9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81DAE04E2B5125E100D75B9D /* Assets.xcassets */; };
 		81DAE0522B5125E100D75B9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81DAE0502B5125E100D75B9D /* LaunchScreen.storyboard */; };
+		81DAE05A2B51289F00D75B9D /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DAE0592B51289F00D75B9D /* LoginViewModel.swift */; };
+		81DAE05C2B51291900D75B9D /* BindingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DAE05B2B51291900D75B9D /* BindingTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		817F7C1B2B5B99AB009BCC97 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		81DAE0422B5125E000D75B9D /* MVVM+R&D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM+R&D.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81DAE0452B5125E000D75B9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81DAE0472B5125E000D75B9D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		81DAE04E2B5125E100D75B9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81DAE0512B5125E100D75B9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81DAE0532B5125E100D75B9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81DAE0592B51289F00D75B9D /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		81DAE05B2B51291900D75B9D /* BindingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +43,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		817F7C152B5B992D009BCC97 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				81DAE0452B5125E000D75B9D /* AppDelegate.swift */,
+				81DAE0472B5125E000D75B9D /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		817F7C162B5B993B009BCC97 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				81DAE0492B5125E000D75B9D /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		817F7C172B5B994E009BCC97 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				81DAE05B2B51291900D75B9D /* BindingTextField.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		817F7C182B5B9956009BCC97 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				81DAE0592B51289F00D75B9D /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		817F7C192B5B9975009BCC97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81DAE04B2B5125E000D75B9D /* Main.storyboard */,
+				81DAE04E2B5125E100D75B9D /* Assets.xcassets */,
+				81DAE0502B5125E100D75B9D /* LaunchScreen.storyboard */,
+				81DAE0532B5125E100D75B9D /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		817F7C1A2B5B998D009BCC97 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				817F7C1B2B5B99AB009BCC97 /* Student.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		81DAE0392B5125E000D75B9D = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +114,12 @@
 		81DAE0442B5125E000D75B9D /* MVVM+R&D */ = {
 			isa = PBXGroup;
 			children = (
-				81DAE0452B5125E000D75B9D /* AppDelegate.swift */,
-				81DAE0472B5125E000D75B9D /* SceneDelegate.swift */,
-				81DAE0492B5125E000D75B9D /* ViewController.swift */,
-				81DAE04B2B5125E000D75B9D /* Main.storyboard */,
-				81DAE04E2B5125E100D75B9D /* Assets.xcassets */,
-				81DAE0502B5125E100D75B9D /* LaunchScreen.storyboard */,
-				81DAE0532B5125E100D75B9D /* Info.plist */,
+				817F7C192B5B9975009BCC97 /* Supporting Files */,
+				817F7C152B5B992D009BCC97 /* Application */,
+				817F7C1A2B5B998D009BCC97 /* Model */,
+				817F7C172B5B994E009BCC97 /* View */,
+				817F7C182B5B9956009BCC97 /* ViewModel */,
+				817F7C162B5B993B009BCC97 /* Controller */,
 			);
 			path = "MVVM+R&D";
 			sourceTree = "<group>";
@@ -138,7 +195,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81DAE05A2B51289F00D75B9D /* LoginViewModel.swift in Sources */,
+				817F7C1C2B5B99AB009BCC97 /* Student.swift in Sources */,
 				81DAE04A2B5125E000D75B9D /* ViewController.swift in Sources */,
+				81DAE05C2B51291900D75B9D /* BindingTextField.swift in Sources */,
 				81DAE0462B5125E000D75B9D /* AppDelegate.swift in Sources */,
 				81DAE0482B5125E000D75B9D /* SceneDelegate.swift in Sources */,
 			);
@@ -294,7 +354,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4CJW76Y9FL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "MVVM+R&D/Info.plist";
+				INFOPLIST_FILE = "MVVM+R&D/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -322,7 +382,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4CJW76Y9FL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "MVVM+R&D/Info.plist";
+				INFOPLIST_FILE = "MVVM+R&D/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
